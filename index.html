@@ -5,49 +5,22 @@
 <title>JavaScript Testing</title>
 </head>
 <body>
-  <button id="colorButton">Click me to change colour</button>
-
-  <!Setting up the button for text input>
-  <button id="inputButton">Click to display text></button>
-  
-  <label for="textInput">Enter your text here</label>
-      <input type="text" id="textInput" name="textInput><br>
-        <br>
-  
-  <script>
-    //Get a reference to the button element
-    var button = document.getElementById("colorButton");
-
-    //Function to change the button color
-    function changeColor() {
-      //Generate a random colour (hexadecimal)
-      var randomColor = "#"+Math.floor(Math.random()*16777215).toString(16);
-
-      //Set the button's background coloUr to the random coloUr
-      button.style.backgroundColor = randomColor;
-    }
-
-    //Add a click event listener to the button
-    button.addEventListener("click",changeColor);    
-  </script>  
+  <input type="text" id="textInput" placeholder="Enter text">
+  <button id="alertButton">Show Alert</button>
 
   <script>
-    //Get a reference to the button element
-    var button = document.getElementById("inputButton");
-    var inputText = document.getElementById("textInput")
-    function getText() {
-      
-        let textValue = inputText
+    //Get references to the button and text field
+    var input = document.getElementById("textInput")
+    var button = document.getElementById("alertButton")
 
+    //Function to show an alert with the text from the input
+    function showAlert(){
+      var inputText = input.value;
+      alert("You entered: " + inputText);
     }
-    
-    function displayAlert() {
-      //Display the text stored in userInput and place it into an alert box
-    alert("You  inputted " + textValue)
-    }
-    button.addEventListener("click",getText,displayAlert)
+
+    // Add a click event listener to the button
+    button.addEventListener("click", showAlert)
   </script>
-  
-  
 </body>  
 </html>
