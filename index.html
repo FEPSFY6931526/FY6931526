@@ -75,7 +75,7 @@
   <hr>
   <h2 id="Introduction">Introduction</h2>
   <p>
-    <pre>
+    <pre id="Introduction_InText">
       Active Learning (Angluin, 1988, Cohn et al., 1994) is a paradigm where a concept is learnt by an
 intelligent machine through the interaction of an oracle with the machine system, over a sequence of
 learning epochs. A distinctive component in an active system is the querying strategy, used to sample
@@ -94,7 +94,7 @@ classifier confidence to drop, as in Vlachos (2008).
   </p>
 
   <h3 id="Analysis and discussion">Analysis and discussion</h3>
-  <p>Bridge deck repair durability is the subject of much research such as in <a href="https://www.icevirtuallibrary.com/doi/full/10.1680/jbren.21.00034">Toshihiko et al (2023).</a> Table 1: Data on cost and lifespan of bridge repairs</p>
+  <p id="Analysis_InText">Bridge deck repair durability is the subject of much research such as in <a href="https://www.icevirtuallibrary.com/doi/full/10.1680/jbren.21.00034">Toshihiko et al (2023).</a> Table 1: Data on cost and lifespan of bridge repairs</p>
   <table>
     <tr>
       <th>£ Cost of repairs</th>
@@ -214,8 +214,8 @@ classifier confidence to drop, as in Vlachos (2008).
 // These next two lines can be chagned to match the ID of each paragraph that matters!
     // Don't forget to change them once the paragraphs are written
     
-    const IntroductionCount = displayWordCount("Introduction");
-    const AnalysisCount = displayWordCount("Analysis and discussion");
+    const IntroductionCount = displayWordCount("Introduction_InText");
+    const AnalysisCount = displayWordCount("Analysis_InText");
     // Calculate the sum of all selected sections
     const totalWordCount = IntroductionCount + AnalysisCount;
     // Display the total word count
