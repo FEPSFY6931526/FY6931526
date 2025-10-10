@@ -1,0 +1,2 @@
+This is a placeholder for the creation of this folder to store the javascript index.html file that originally existed in the main repo folder!
+This folder should allow for a cleaner and more organised repo.
