@@ -50,20 +50,20 @@ p.mix {border-style: dotted dashed solid double;}
 
 
 h1.over {
-    text-decoration: overline;
+    text-decoration-line: overline;
     text-decoration-color: red;
 }
 
 h2.through {
-    text-decoration: line-through;
+    text-decoration-line: line-through;
     text-decoration-color: blue
 }
 h3.under {
-    text-decoration: underline;
+    text-decoration-line: underline;
     text-decoration-color: green;
 }
 p.both {
-    text-decoration: underline overline;
+    text-decoration-line: underline overline;
     text-decoration-color: purple;
 }
 /* Comments are written inside this */
