@@ -49,6 +49,18 @@ p.hidden {border-style: hidden;}
 p.mix {border-style: dotted dashed solid double;}
 
 
+h1.over {
+    text-decoration: overline;
+}
 
+h2.through {
+    text-decoration: line-through;
+}
+h3.under {
+    text-decoration: underline;
+}
+p.both {
+    text-decoration: underline overline;
+}
 /* Comments are written inside this */
 /* Comments can span multiple lines */
