@@ -27,9 +27,12 @@ h1 {
     margin-left:/*Comments can appear in the middle of a line of code*/ 20px;
 }
 
-div {
-    background-color: green;
-    opacity: 0.3;
+div.box_model {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    background-color: lightgrey;
 }
 
 
