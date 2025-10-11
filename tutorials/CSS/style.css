@@ -2,3 +2,30 @@ p {
     text-align: center;
     color: red;
 }
+/* This rule applies to the element with id "para1" */
+#para1 {
+    text-align: center;
+    color: blue;
+}
+
+.center {
+    text-align: center;
+    color: green;
+}
+
+p.center {
+    text-align: center;
+    color: orange;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left:/*Comments can appear in the middle of a line of code*/ 20px;
+}
+
+/* Comments are written inside this */
+/* Comments can span multiple lines */
