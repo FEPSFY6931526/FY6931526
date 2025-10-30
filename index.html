@@ -78,7 +78,7 @@
   </p>
 
   <h3 id="Analysis and discussion">Section II: An investigation into the process of cluster computing</h3>
-  <p id="Analysis_InText">
+  <p id="Investigation_InText">
       Say there is a large data set regarding some important data that a group of scientists require for a simulation to determine whether a project or experiment should go ahead. If a single computer was designated to run a program that would run in a certain amount of time, or at least at a time proportional to the data set used in the simulation. We can give that time a value of x. Now the computer used to run the simulation has a processor with 8 processing cores and 8 virtual cores. These cores each can run one instruction at a time, meaning that at any given time, the computer can execute 16 instructions at once. If sixteen cores will require x time to run through the simulation, then how would 32 cores compare? What about 64?
       The whole process of cluster computing is to share the workload over multiple machines, with multiple cores, thus spreading out the process across more cores, and creating a parallel system. Looking back at my example above, if the simulation software was instead adapted to run on a cluster system, then that time frame x can be shortened.
   </p>
@@ -207,9 +207,9 @@
     // Don't forget to change them once the paragraphs are written
     
     const IntroductionCount = displayWordCount("Introduction_InText");
-    const AnalysisCount = displayWordCount("Analysis_InText");
+    const InvestigationCount = displayWordCount("Investigation_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisCount;
+    const totalWordCount = IntroductionCount + InvestigationCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
