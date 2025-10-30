@@ -55,7 +55,7 @@
       <td><a href="#Introduction">Section I: An Introduction</td>
     </tr>
     <tr>
-      <td><a href="#Analysis and discussion">Section II: An investigation into the process of cluster computing</td>
+      <td><a href="#Investigation">Section II: An investigation into the process of cluster computing</td>
     </tr>
 
     <tr>
@@ -77,7 +77,7 @@
       There are many areas of science that benefit from viewing the interactions of their fields, and using software to do so can eliminate the potential risk involved with performing an actual experiment. This becomes an issue when you start to look at larger data sets, because a single computer can only perform x number of instructions per second, and this creates a time frame around an action. If each action has a time frame, then for every action you need to perform, you have a time in which the computer cannot do anything else. This time adds up, especially on larger data, or more complex calculations. The use of a group of computers arranged in a cluster instead allows multiple actions to be performed at a time by spreading the data and instructions between multiple processors and machines, decreasing the time it would take to perform all the instructions necessary to simulate a complex model.
   </p>
 
-  <h3 id="Analysis and discussion">Section II: An investigation into the process of cluster computing</h3>
+  <h3 id="Investigation">Section II: An investigation into the process of cluster computing</h3>
   <p id="Investigation_InText">
       Say there is a large data set regarding some important data that a group of scientists require for a simulation to determine whether a project or experiment should go ahead. If a single computer was designated to run a program that would run in a certain amount of time, or at least at a time proportional to the data set used in the simulation. We can give that time a value of x. Now the computer used to run the simulation has a processor with 8 processing cores and 8 virtual cores. These cores each can run one instruction at a time, meaning that at any given time, the computer can execute 16 instructions at once. If sixteen cores will require x time to run through the simulation, then how would 32 cores compare? What about 64?
       The whole process of cluster computing is to share the workload over multiple machines, with multiple cores, thus spreading out the process across more cores, and creating a parallel system. Looking back at my example above, if the simulation software was instead adapted to run on a cluster system, then that time frame x can be shortened.
