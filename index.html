@@ -98,21 +98,23 @@
     As powerful computers became more expensive, the need for a cheaper alternative was necessary. Why spend an excessive amount of funds on one singular computer, which may only be used once or twice, when you could instead use far more less expensive options, and then run them parallel to each other. Whilst it isn’t as simple as my above description, the need was there, and it needed to be met. If one computer could perform multiple instructions at once, why couldn’t multiple computers run at once performing the same task.
   </p>
 
-  <h3 id="How">How</h3>
+  <h3 id="How">How is cluster computing achieved?</h3>
   <p id="How_InText">
   There are two sides to cluster computing, firstly there is the physical. Computers in a cluster can either be ‘dedicated’, or ‘non-dedicated’ (Buyya, R. 1999) according to Rajkumar Buyya in his book “High Performance Cluster Computing: Systems and Architectures, Volume 1”. Buyya determines the difference between the two as being “based on the ownership of the workstations” (Buyya, R. 1999). A ‘dedicated’ cluster has all resources always shared between each workstation, whereas a ‘non-dedicated' cluster shares any idle resources from a non-active workstation to the cluster. 
   The second side of cluster computing is the software. Software and programs can be written with the specific intent of being run on a cluster, however this exposes just how niche clusters can be at times. If each cluster is built differently, and the code required to run a program is written for an individual cluster, it may not be possible to run that code on a different cluster or computer. This does increase the cost, as now you need either specialised code designed for your system, or someone else’s code needs to be adapted for your system. Both options can become more expensive if it takes time to develop the result you need.  
 
   </p>
 
-<h3 id="Why">Why</h3>
+<h3 id="Why">What is the reason for using a computer cluster?</h3>
   <p id="Why_InText">
-    
+    With the correct setup and execution, a computer cluster could efficiently run a complex simulation, that might ordinarily take a normal computer much longer. We can use Big O Time notation to give a better picture about what I mean. Let’s say a normal computer can perform the simulation in O(5n+3) time. This means that the more data, n, that is used, the longer it will take to run. For every n data it takes 5n + 3 seconds to run. If the simulation was using 5 pieces of data it would take 25 + 3, or 28 seconds. If our cluster ran the same simulation, but with adapted software that takes advantage of the nature of the cluster, we might find that the Big O time complexity was O(n+5), which if given the same pieces of data, would take 5 + 5, or 10 seconds. With so little data, this seems like a minimal gain, but if scaled up correctly, we could use 4500 pieces of data, and the cluster would perform much faster than the normal computer. This example begins to show just how limiting a single computer can be. If you start to look at larger and more complex problems, the need for parallel computations becomes more prevalent. 
   </p>
 
-<h3 id="Examples">Examples</h3>
+<h3 id="Examples">Examples of the use of computer clusters effectively</h3>
   <p id="Examples_InText">
-    
+    One such project utilising a cluster of computers for calculations was the Millenium Simulation. In the ‘Methods’ section of “Simulations of the formation, evolution and clustering of galaxies and quasars”, the authors describe how they used 512 processors from an IBM p690 installation at the Computing Centre of the Max-Planck Society in Garching, Germany. They also mention that it took “350,000 processor hours of CPU time, or 28 days of wall-clock time” (Springel, V. White, S. Jenkins, A. et al 2005)
+Another project that is utilising high performance computer clusters is the European Organisation for Nuclear Research (CERN). In a recently published article, written by Tommaso Boccali et al, they describe how CERN is experimenting with sending data to offsite locations to be computed during high load occasions, such as when the Large Hadron Collider (LHC) is actively being used. (Boccali, T. et al 2021) This highlights the problem with not having enough on-site computing power, and shows how even well-developed facilities such as the LHC and CERN require increased support when it comes to high powered computing clusters.
+
   </p>
 
 
