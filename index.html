@@ -237,9 +237,12 @@ Another project that is utilising high performance computer clusters is the Euro
     // Don't forget to change them once the paragraphs are written
     
     const IntroductionCount = displayWordCount("Introduction_InText");
-    const InvestigationCount = displayWordCount("Investigation_InText");
+    const WhatCount = displayWordCount("What_InText");
+    const HowCount = displayWordCount("How_InText");
+    const WhyCount = displayWordCount("Why_InText");
+    const ExamplesCount = displayWordCount("Examples_InText");
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + InvestigationCount;
+    const totalWordCount = IntroductionCount + WhatCount + HowCount + WhyCount + ExamplesCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
