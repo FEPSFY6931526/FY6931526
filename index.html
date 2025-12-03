@@ -109,6 +109,38 @@
   <p id="Why_InText">
     With the correct setup and execution, a computer cluster could efficiently run a complex simulation, that might ordinarily take a normal computer much longer. We can use Big O Time notation to give a better picture about what I mean. Let’s say a normal computer can perform the simulation in O(5n+3) time. This means that the more data, n, that is used, the longer it will take to run. For every n data it takes 5n + 3 seconds to run. If the simulation was using 5 pieces of data it would take 25 + 3, or 28 seconds. If our cluster ran the same simulation, but with adapted software that takes advantage of the nature of the cluster, we might find that the Big O time complexity was O(n+5), which if given the same pieces of data, would take 5 + 5, or 10 seconds. With so little data, this seems like a minimal gain, but if scaled up correctly, we could use 4500 pieces of data, and the cluster would perform much faster than the normal computer. This example begins to show just how limiting a single computer can be. If you start to look at larger and more complex problems, the need for parallel computations becomes more prevalent. 
   </p>
+    <table>
+    <tr>
+      <th>Number of Data, n</th>
+      <th>Big O Time (5n+3)</th>
+      <th>Big O Time (n+5)</th>
+      <th>Time comparison (s)</th>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5(5)+3</td>
+      <td>(5)+5</td>
+      <td>28 \/ 8</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>5(10)+3</td>
+      <td>(10)+5</td>
+      <td>53 \/ 15</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>5(100)+3</td>
+      <td>(100)+5</td>
+      <td>503 \/ 105</td>
+    </tr>
+    <tr>
+      <td>10000</td>
+      <td>5(10000)+3</td>
+      <td>(10000)+5</td>
+      <td>50003 \/ 10005</td>
+    </tr>
+  </table>
 
 <h3 id="Examples">Examples of the use of computer clusters effectively</h3>
   <p id="Examples_InText">
@@ -119,32 +151,7 @@ Another project that is utilising high performance computer clusters is the Euro
 
 
 
-  <table>
-    <tr>
-      <th>£ Cost of repairs</th>
-      <th>Lifespan of repairs (years)</th>
-    </tr>
-    <tr>
-      <td>0.7 m</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>3.3 m</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>2.6</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>17.4 m</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>8.8 m</td>
-      <td>9</td>
-    </tr>
-  </table>
+
 
 
   <h3 id="References">VI: References</h3>
