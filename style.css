@@ -74,12 +74,14 @@ body {
 }
 
 .Table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #83a8df;
   border-radius: 1rem;
   border-color: black;
   border-width: 2px;
   width: 30%;
-  justify-content: center;
   padding: 1rem;
   padding-top: 4rem;
   tr:nth-child(odd) {
