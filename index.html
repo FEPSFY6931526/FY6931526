@@ -100,22 +100,25 @@ function myFunction() {
   <div class="abs" style="overflow: visible;">
   <h3 id="Abstract" style="text-align: center; padding-top: 1rem;">Abstract</h3>
   <!-- <p class="ex1"> -->
-    <p style="padding: 1rem;">
+    <p class="ex2">
       This article explains what cluster computing is and why it came around, how it is achieved, through both physical components and software and applications. As well as the reasons behind its use, as well as examples of its use, including the Millenium Simulation.
 
       This article goes on to explain what a computer cluster is, how they are designed, their use case and then goes 
   </p>
   </div>
   <!-- <hr> -->
-<div class="IntroDiv">
-  <h2 id="Introduction">I: Introduction</h2>
+<div class="IntroDiv" style="overflow: visible;">
+  <h2 id="Introduction" class="ex2">I: Introduction</h2>
   <p id="Introduction_InText">
     There are many situations in which being able to run software in a parallel state is useful, one such area is complex simulations, that often require hundreds of hours of central processing unit (CPU) time.
     This led to the development and adaptation of computer clusters, or multiple computers all working on the same simulation or program, running simultaneously to produce the desired outcome. But why clusters of computers, why not just use one very powerful computer.
     The answer, as it is with so many questions we face today, is money. But this article will tell you a bit more about what and why, alongside a couple of examples from the real world.
   </p>
 </div>
-<div class="WhatDiv">
+
+
+
+<div class="WhatDiv" style="overflow: visible;">
   <h3 id="What">II: What is cluster computing?</h3>
   <p id="What_InText">
     When computers where first used to simulate real world problems and solutions, they worked in a sequential manner, that is, each instruction was processed one after another.
@@ -125,6 +128,9 @@ function myFunction() {
     As powerful computers became more expensive, the need for a cheaper alternative was necessary. Why spend an excessive amount of funds on one singular computer, which may only be used once or twice, when you could instead use far more less expensive options, and then run them parallel to each other. Whilst it isn’t as simple as my above description, the need was there, and it needed to be met. If one computer could perform multiple instructions at once, why couldn’t multiple computers run at once performing the same task.
   </p>
 </div>
+
+
+
   <h3 id="How">III: How is cluster computing achieved?</h3>
   <p id="How_InText">
   There are two sides to cluster computing, firstly there is the physical. Computers in a cluster can either be ‘dedicated’, or ‘non-dedicated’ <a href="#ref3">(Buyya, 1999)</a> according to Rajkumar Buyya in his book <a href="#ref3">“High Performance Cluster Computing: Systems and Architectures, Volume 1”</a>. Buyya determines the difference between the two as being “based on the ownership of the workstations” <a href="#ref3">(Buyya, 1999)</a>. A ‘dedicated’ cluster has all resources always shared between each workstation, whereas a ‘non-dedicated' cluster shares any idle resources from a non-active workstation to the cluster. 

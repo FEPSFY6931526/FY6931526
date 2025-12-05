@@ -12,6 +12,10 @@ body {
 .ex1 {
   font-family: "Times New Roman", Times, serif;
 }
+.ex2 {
+  text-align: center;
+  padding: 1rem;
+}
 
 .abs {
   justify-content: center;
