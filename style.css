@@ -46,4 +46,5 @@ body {
   border-width: 2px;
   border-collapse: collapse;
   width: 100%;
+  justify-content: center;
 }
