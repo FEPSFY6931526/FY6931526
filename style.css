@@ -6,3 +6,6 @@ body {
   background: linear-gradient(135deg, #f7f7f7, #c7c7c7);
   font-family: "Poppins", sans-serif;
 }
+.abs {
+  justify-content: center;
+}
