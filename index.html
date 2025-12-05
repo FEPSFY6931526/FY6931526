@@ -174,8 +174,9 @@ function myFunction() {
 
 <div class="IntroDiv">
 <h3 id="Examples">V: Examples of the use of computer clusters effectively</h3>
-  <p id="Examples_InText">
-    One such project utilising a cluster of computers for calculations was the Millenium Simulation. In the ‘Methods’ section of “Simulations of the formation, evolution and clustering of galaxies and quasars”, the authors describe how they used 512 processors from an IBM p690 installation at the Computing Centre of the Max-Planck Society in Garching, Germany. They also mention that it took “350,000 processor hours of CPU time, or 28 days of wall-clock time” <a href="#ref4">(Springel, White, Jenkins, <i>et al</i> 2005)</a>
+  <p id="Examples1_InText">
+    One such project utilising a cluster of computers for calculations was the Millenium Simulation. In the ‘Methods’ section of “Simulations of the formation, evolution and clustering of galaxies and quasars”, the authors describe how they used 512 processors from an IBM p690 installation at the Computing Centre of the Max-Planck Society in Garching, Germany. They also mention that it took “350,000 processor hours of CPU time, or 28 days of wall-clock time” <a href="#ref4">(Springel, White, Jenkins, <i>et al</i> 2005)</a></p>
+  <p id="Examples2_InText">
 Another project that is utilising high performance computer clusters is the European Organisation for Nuclear Research (CERN). In a recently published article, written by Tommaso Boccali et al, they describe how CERN is experimenting with sending data to offsite locations to be computed during high load occasions, such as when the Large Hadron Collider (LHC) is actively being used. <a href="#ref2">(Boccali, <i>et al</i> 2021)</a> This highlights the problem with not having enough on-site computing power, and shows how even well-developed facilities such as the LHC and CERN require increased support when it comes to high powered computing clusters.
 
   </p>
@@ -282,9 +283,10 @@ DOI:"https://doi.org/10.1038/nature03597"</a>
     const WhatCount = displayWordCount("What_InText");
     const HowCount = displayWordCount("How_InText");
     const WhyCount = displayWordCount("Why_InText");
-    const ExamplesCount = displayWordCount("Examples_InText");
+    const Examples1Count = displayWordCount("Examples1_InText");
+    const Examples2Count = displayWordCount("Examples2_InText")
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + WhatCount + HowCount + WhyCount + ExamplesCount;
+    const totalWordCount = IntroductionCount + WhatCount + HowCount + WhyCount + Examples1Count + Examples2Count;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
