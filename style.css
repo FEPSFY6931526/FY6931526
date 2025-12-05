@@ -9,6 +9,14 @@ body {
   margin-right: 50px;
 }
 
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .ex1 {
   font-family: "Times New Roman", Times, serif;
 }
