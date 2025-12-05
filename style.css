@@ -78,6 +78,9 @@ body {
   width: 100%;
   justify-content: center;
   padding: 1rem;
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
 }
 
 table {
@@ -94,8 +97,4 @@ th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
-}
-
-tr:nth-child(odd) {
-  background-color: #ffffff;
 }
