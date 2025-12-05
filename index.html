@@ -207,7 +207,10 @@ DOI:"https://doi.org/10.1038/nature03597"</a>
 <!-- //////////////////////////////////////////////////////////////////////////////// -->
   <!-- ////////////////////////////// Adding last update ////////////////////////////// -->
   <!-- //////////////////////////////////////////////////////////////////////////////// -->
-    <!-- Last commit time display -->
+
+<!-- The timestamp feature is being wrapped in a div so that I can move it around, the main content of the scripts will not be changed -->
+<div style="padding-top: 20px;">
+  <!-- Last commit time display -->
 <div id="last-updated">Loading last update time...</div>
 <!-- Verify Button -->
 <button onclick="verifyLastUpdatedTime()" style="display: block; margin: 10px auto; padding: 8px 16px;">
@@ -253,11 +256,13 @@ DOI:"https://doi.org/10.1038/nature03597"</a>
     window.onload = getLastUpdatedTime;
 </script>
 
-
+</div>
  <!-- //////////////////////////////////////////////////////////////////////////////// -->
   <!-- ////////////////////////////// Word count function ////////////////////////////// -->
   <!-- //////////////////////////////////////////////////////////////////////////////// -->
-<!-- Placeholder for total word count -->
+<div style="padding-top: 5px;">
+
+  <!-- Placeholder for total word count -->
 <p id="totalWordCount"></p>
 <hr>
 <script>
@@ -293,7 +298,7 @@ DOI:"https://doi.org/10.1038/nature03597"</a>
   // Run the function for specific sections and display total count when the page loads
   window.onload = displayTotalWordCount;
 </script>
-
+</div>
   
   
 </body>
