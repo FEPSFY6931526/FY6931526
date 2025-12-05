@@ -25,6 +25,7 @@ body {
   border-radius: 1rem;
   padding: 1rem;
   border: black;
+  overflow: visible;
 }
 
 .IntroDiv {
@@ -35,6 +36,7 @@ body {
   border-radius: 1rem;
   border: black;
   padding: 1rem;
+  overflow: visible;
 }
 
 .WhatDiv {
@@ -44,6 +46,7 @@ body {
   border-width: 2px;
   border-radius: 1rem;
   padding: 1rem;
+  overflow: visible;
 }
 
 /* Scrollbar indicator styles */
