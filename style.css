@@ -33,7 +33,7 @@ body {
 }
 
 .progress-bar {
-  margin-left: -50px;
+  margin-left: 0px;
   height: 8px;
   background: #04aa6d;
   width: 0%;
