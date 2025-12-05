@@ -8,4 +8,7 @@ body {
 }
 .abs {
   justify-content: center;
+  background-color: #f7f7f7;
+  border-color: black;
+  border-width: 2px;
 }
