@@ -8,6 +8,11 @@ body {
   margin-left: 50px;
   margin-right: 50px;
 }
+
+.ex1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .abs {
   justify-content: center;
   background-color: #f7f7f7;
