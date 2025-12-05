@@ -135,7 +135,7 @@ function myFunction() {
     With the correct setup and execution, a computer cluster could efficiently run a complex simulation, that might ordinarily take a normal computer much longer. We can use Big O Time notation to give a better picture about what I mean. Let’s say a normal computer can perform the simulation in <i>O(5n+3)</i> time. This means that the more data, <i>n</i>, that is used, the longer it will take to run. For every <i>n</i> data it takes <i>5n + 3</i> seconds to run. If the simulation was using 5 pieces of data it would take 25 + 3, or 28 seconds. If our cluster ran the same simulation, but with adapted software that takes advantage of the nature of the cluster, we might find that the Big O time complexity was <i>O(n+5)</i>, which if given the same pieces of data, would take 5 + 5, or 10 seconds. With so little data, this seems like a minimal gain, but if scaled up correctly, we could use 4500 pieces of data, and the cluster would perform much faster than the normal computer. The figure below shows this information in an easier setting. This example begins to show just how limiting a single computer can be. If you start to look at larger and more complex problems, the need for parallel computations becomes more prevalent. 
   </p>
   <!-- <h3 id="Figure1">Figure 1: Comparison of Big O Time complexities</h3> -->
-  <div class="Table">  
+  <div class="Table" style="text-align: center; padding-top: 1rem;">  
   <table>
     <tr>
       <th>Number of Data, n</th>
