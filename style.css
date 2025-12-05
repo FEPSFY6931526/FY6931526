@@ -17,6 +17,7 @@ body {
 
 /* Scrollbar indicator styles */
 .header {
+  margin-left: 0px;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -25,12 +26,14 @@ body {
 }
 
 .progress-container {
+  margin-left: 0px;
   width: 100%;
   height: 8px;
   background: #ccc;
 }
 
 .progress-bar {
+  margin-left: 0px;
   height: 8px;
   background: #04aa6d;
   width: 0%;
