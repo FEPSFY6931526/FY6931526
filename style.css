@@ -22,6 +22,15 @@ body {
   padding: 1rem;
 }
 
+.IntroDiv {
+  justify-content: center;
+  background-color: transparent;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
 /* Scrollbar indicator styles */
 .header {
   margin-left: -50px;
