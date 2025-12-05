@@ -49,6 +49,16 @@ body {
   overflow: visible;
 }
 
+.referenceDiv {
+  justify-content: center;
+  background-color: #f7f7f7;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
 /* Scrollbar indicator styles */
 .header {
   margin-left: -50px;
