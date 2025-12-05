@@ -35,3 +35,12 @@ body {
   background: #04aa6d;
   width: 0%;
 }
+
+.Table {
+  background-color: #f7f7f7;
+  border-radius: 1rem;
+  border-color: black;
+  border-width: 2px;
+  border-collapse: collapse;
+  width: 100%;
+}
